@@ -12,14 +12,36 @@ Curso: Engenharia de Software
 Desenvolver uma plataforma digital centralizada para conectar ONGs e doadores independentes a potenciais adotantes, otimizando a comunicação e promovendo a organização do processo de adoção de animais
 
 ## :eyes: Público-Alvo
-ONGs, Doadores independentes e Adotantes
+
+- **ONGs e Protetores Independentes:** Organizações e voluntários que necessitam de um canal centralizado para divulgar resgates e gerenciar solicitações de adoção.
+- **Doadores Pessoais:** Indivíduos que precisam encontrar um novo lar para um animal de forma segura e organizada.
+- **Potenciais Adotantes:** Pessoas e famílias que buscam adotar um animal de estimação filtrando por região, espécie e características do pet.
+- **Comunidade Geral:** Pessoas interessadas em acompanhar, apoiar ou entrar em contato com ONGs e protetores da sua região.
 
 ## :star2: Impacto Esperado
 Espera-se que o projeto centralize e otimize a divulgação de animais para adoção, aumente a taxa de adoções bem-sucedidas e reduza a dependência de métodos informais de divulgação, proporcionando maior segurança, alcance e organização para ONGs e doadores independentes.lvo
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Adiministrador, Doadores e Adotantes
+- **Visitante (Não Autenticado):**
+  - Usuário que navega pela plataforma sem realizar login.
+  - Pode buscar, filtrar e visualizar anúncios de animais, além de consultar perfis públicos de doadores e ONGs.
+
+- **Adotante (Usuário Autenticado):**
+  - Pessoa física cadastrada na plataforma interessada em adotar um pet.
+  - Pode enviar solicitações formais de adoção, conversar diretamente com doadores/ONGs e denunciar conteúdos ou perfis suspeitos.
+
+- **Doador / Protetor Independente (Usuário Autenticado):**
+  - Pessoa física cadastrada com permissão para anunciar animais para doação.
+  - Pode cadastrar e gerenciar anúncios de pets, avaliar e responder a solicitações de adoção e utilizar o chat para o acompanhamento pós-adoção.
+
+- **ONG / Instituição (Usuário Autenticado):**
+  - Perfil jurídico ou organização parceira dedicada à causa animal.
+  - Possui as mesmas permissões do doador, acrescido de selo/perfil institucional e espaço para divulgação de informações da entidade.
+
+- **Administrador / Moderador:**
+  - Usuário interno responsável pela gestão e integridade da plataforma.
+  - Gerencia e analisa denúncias de usuários/anúncios, modera conteúdos impróprios e administra o status de cadastros na plataforma.
 
 > Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
 
